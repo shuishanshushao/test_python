@@ -14,7 +14,6 @@ class TestDemo:
     @pytest.mark.run(order=1)
     def test_fun4(self):
         print("我是测试函数4")
-        raise "11111"
 
 
 if __name__ == "__main__":
